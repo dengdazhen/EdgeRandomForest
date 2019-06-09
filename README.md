@@ -38,9 +38,10 @@ The argument visualization is set False by default. If True, the predicted edge 
 The detail about the data class BSCD500 can refer to the file data.py. The data can be downloaded from the [Berkeley Vision Group](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/resources.html)
 
 Below are some results of the algorithm with a stride 4:
+
 Original image             |  Edge Detection
 :-------------------------:|:-------------------------:
-![](./original/00000.png)  |  ![](./results/00000.png)|
+![](original/00000.png)  |  ![](results/00000.png)|
 ![](./original/00001.png)  |  ![](./results/00001.png)|
 ![](./original/00002.png)  |  ![](./results/00002.png)
 ![](./original/00003.png)  |  ![](./results/00003.png)
