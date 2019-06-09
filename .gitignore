@@ -33,3 +33,6 @@ test-results.xml
 !build/
 .vscode
 *.png
+
+!original/*.png
+!results/*.png
