@@ -54,7 +54,6 @@ def gradient_magnitude(img_gray):
 
 def channels(img):
     # 32 * 32 * c
-    img_luv = cv2.cvtColor(img,cv2.COLOR_BGR2Luv) # 3 channels
     img_luv = BGR2CIELUV(img)
     l,u,v = cv2.split(img_luv/255)
     img_gray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)/255.0
